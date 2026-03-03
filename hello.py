@@ -1,8 +1,8 @@
-# pylint: disable=missing-docstring
-
+# pylint: disable=missing-docstring #!/usr/bin/env python3
 import sys
 
-def full_name(first_name, last_name):
+ def full_name(first_name, last_name):   
+    breakpoint()
     """returns the full name"""
     name = f"{first_name.capitalize()}{last_name.capitalize()}"
     
